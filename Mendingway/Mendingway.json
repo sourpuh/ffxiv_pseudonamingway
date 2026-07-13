@@ -4,9 +4,7 @@
 	"Punchline": "Give Mendingway and Vendingway the respect they deserve!",
 	"Description": "A plugin to give 2 Bnuuys their correct names.",
 	"InternalName": "Mendingway",
-	"AssemblyVersion": "0.1.0.0",
-	"RepoUrl": "",
+	"RepoUrl": "https://github.com/chirpxiv/Mendingway",
 	"ApplicableVersion": "any",
-	"DalamudApiLevel": 9,
 	"Tags": []
 }

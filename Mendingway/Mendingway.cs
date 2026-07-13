@@ -1,19 +1,14 @@
-﻿using System.Diagnostics.CodeAnalysis;
-
 using Dalamud.Plugin;
 
-namespace Mendingway; 
+namespace Mendingway;
 
-[SuppressMessage("ReSharper", "ClassNeverInstantiated.Global")]
 public sealed class Mendingway : IDalamudPlugin {
-	public string Name => "Mendingway";
-		
-	public Mendingway(DalamudPluginInterface dalamud) {
+	public Mendingway(IDalamudPluginInterface dalamud) {
 		Services.Init(dalamud);
-		Hooks.Init();
+		NamePlates.Init();
 	}
 
 	public void Dispose() {
-		Hooks.Dispose();
+		NamePlates.Dispose();
 	}
 }
