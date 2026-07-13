@@ -6,7 +6,7 @@ namespace Pseudonamingway;
 
 internal class Services
 {
-	[PluginService] internal static INamePlateGui NamePlateGui { get; set; } = null!;
+    [PluginService] internal static INamePlateGui NamePlateGui { get; set; } = null!;
 
-	internal static void Init(IDalamudPluginInterface dalamud) => dalamud.Create<Services>();
+    internal static void Init(IDalamudPluginInterface dalamud) => dalamud.Create<Services>();
 }

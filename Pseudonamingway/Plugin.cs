@@ -7,7 +7,8 @@ public sealed class Plugin : IDalamudPlugin
 	public Plugin(IDalamudPluginInterface dalamud)
 	{
 		Services.Init(dalamud);
-		NamePlates.Init();
+		NamePlates.Init(dalamud.UiLanguage);
+		dalamud.LanguageChanged += NamePlates.LanguageChanged;
 	}
 
 	public void Dispose()

@@ -28,7 +28,15 @@ internal static class NamePlates
 		}
 	}
 
-	internal static void Init()
+	internal static void LanguageChanged(string langCode)
+    {
+        if (langCode == "en")
+			Init(langCode);
+		else
+			Dispose();
+    }
+
+    internal static void Init(string langCode)
 	{
 		Services.NamePlateGui.OnNamePlateUpdate += OnNamePlateUpdate;
 		Services.NamePlateGui.RequestRedraw();
