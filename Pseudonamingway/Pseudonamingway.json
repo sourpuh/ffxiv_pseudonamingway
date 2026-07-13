@@ -1,0 +1,10 @@
+{
+	"Author": "sourpuh (Formerly Chirp)",
+	"Name": "Pseudonamingway",
+	"Punchline": "Give Mendingway and Vendingway the respect they deserve!",
+	"Description": "[English only] A plugin to give various loporrits their correct names.",
+	"InternalName": "Pseudonamingway",
+	"RepoUrl": "https://github.com/sourpuh/ffxiv_pseudonamingway",
+	"ApplicableVersion": "any",
+	"Tags": ["rename", "mendingway", "vendingway", "supplyingway", "loporrit"]
+}

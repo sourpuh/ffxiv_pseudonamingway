@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Dalamud.NET.Sdk/15.0.0">
   <PropertyGroup>
-    <Authors>Chirp</Authors>
-    <Version>0.1.0</Version>
+    <Version>0.2.0</Version>
     <Description>Give Mendingway and Vendingway the respect they deserve!</Description>
-    <Copyright>MIT License</Copyright>
-    <RootNamespace>Mendingway</RootNamespace>
-    <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
   </PropertyGroup>
 </Project>
